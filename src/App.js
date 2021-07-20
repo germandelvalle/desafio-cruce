@@ -1,11 +1,11 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
+import Inicio from "./components/Inicio";
+
+
 
 function App() {
   return (
     <>
-      <Header/>
-      <Main/>
+      <Inicio/>
     </>
   );
 }

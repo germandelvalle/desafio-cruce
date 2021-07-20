@@ -1,0 +1,23 @@
+.container{
+    border: 1px solid #F0F0F0;
+    display: flex;
+    align-items: center;
+    width: 296px;
+    height: 176px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+
+.description{
+    width: 100%;
+    padding: 10px;
+}
+.description__tittle{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    color: #7D5A94;
+}

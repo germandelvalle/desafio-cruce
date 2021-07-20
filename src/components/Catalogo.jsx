@@ -2,7 +2,7 @@ import { useState,useEffect } from 'react'
 
 import Producto from "./Producto"
 
-//import datos from "products.json"
+
 
 const Catalogo = ()=>{
 
@@ -24,17 +24,12 @@ const Catalogo = ()=>{
         
     }
 
-    /* 
-    .then(response => response.json())
-    .then(data => console.log(data)); */
-
 
     return(
-        <div>
-            Catalogo
-
+        <div className="d-flex justify-content-evenly flex-wrap">
+            
             {
-                productos.map((producto)=> <Producto nombre={producto.name} imagen={producto.image} precio={producto.price}/>)
+                productos.map((producto,key)=> <Producto key={key} nombre={producto.name} imagen={producto.image} precio={producto.price}/>)
             }
             
         </div>
